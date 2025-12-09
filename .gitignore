@@ -55,10 +55,10 @@ dkms.conf
 *.dwo
 
 
-# Idea files
+# Custom folders
 .idea/
-
-
-# Test
-
 test/
+
+# Custom files
+
+.input
