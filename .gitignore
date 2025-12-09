@@ -54,10 +54,20 @@ dkms.conf
 # debug information files
 *.dwo
 
-
-# Custom folders
+# IDE configs
 .idea/
-test/
+.vscode/
+.vs/
+*.suo
+*.user
+*.bak
+*.resharper
+.project
+.classpath
+.settings/
+
+# Custom Folder
+.test/
 
 # Custom files
 
