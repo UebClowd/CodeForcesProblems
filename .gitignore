@@ -55,8 +55,5 @@ dkms.conf
 *.dwo
 
 
-# input
-*.input
-
 # Idea files
 .idea/
