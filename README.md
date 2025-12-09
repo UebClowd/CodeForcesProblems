@@ -22,10 +22,14 @@ All problems must be in C files.
 
 Input must somehow be redirected from a top=level .input file.
 
+`./myprogram < .in`
+
 ## Output
 
-Output may be somehow redirected to potentially multiple files.
-However, the main output must be sent to stdout.
+While the main required-by-codeforces output must be directly sent to stdout, 
+other output (such as stderr) may be somehow redirected to other files.
+
+`gcc -o myprogram myprogram.c 2> .out`
 
 ## Test
 
@@ -34,7 +38,6 @@ The test directory includes C files that are used for testing and safekeeping pu
 ## Licence
 
 MIT Licence
-
 
 ## Compilation
 
@@ -46,7 +49,12 @@ However, programs should be compiled in `gcc` with no additional flags.
 
 There is no strict limit in the compilation target.
 
+For example,
+`gcc -Wall -Werror /1/A.c -o A`
+
 ## Running
 
 If a certain executable is runnable in a certain system, then it is okay to run.
 
+For example,
+`./A`

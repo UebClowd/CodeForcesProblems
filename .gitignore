@@ -66,9 +66,7 @@ dkms.conf
 .classpath
 .settings/
 
-# Custom Folder
+# Custom directories and files
 .test/
-
-# Custom files
-
-.input
+.in
+.out
